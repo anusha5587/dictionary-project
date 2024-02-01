@@ -9,13 +9,10 @@ export default function App() {
         <header className="App-header">
           <img src={logo} className="App-logo img-fluid" alt="logo" />
         </header>
-        <main>
-          <Dictionary />
-        </main>
+        <Dictionary />
         <br />
-        <br />
-        <div className="footer">
-          <footer className="text-center">
+        <footer className="text-center">
+          <div className="footer">
             Coded by Anoosha Anand and is open-soursed on{" "}
             <a
               href="https://github.com/anusha5587/dictionary-project"
@@ -24,8 +21,9 @@ export default function App() {
             >
               GitHub{" "}
             </a>{" "}
-          </footer>
-        </div>
+          </div>
+        </footer>
+        <br />
       </div>
     </div>
   );

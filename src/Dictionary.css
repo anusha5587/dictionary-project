@@ -1,33 +1,81 @@
 .Dictionary {
-  color: black;
-  font-size: 30px;
-  font-weight: bold;
-  margin: 0 auto;
-  text-align: center;
-}
-
-.searchBar {
-  margin-top: 30px;
-  padding: 20px 0px 20px 10px;
-}
-
-.btn-primary {
-  font-size: 15px;
-  color: black;
-  background: #d5d7e3;
+  margin-top: 20px;
+  color: whitesmoke;
   font-family: "Pacifico", cursive;
-  padding: 7px;
-  border-radius: 5px;
-  font-weight: lighter;
-  letter-spacing: 1.5;
-  display: flex;
-  align-items: center;
+  padding: 20px 0px 20px 10px;
+  max-width: 900px;
+  margin: 0 auto;
 }
 
-.btn-primary:hover {
-  cursor: pointer;
-  color: #4d2110;
-  background: #d5d7e3;
-  text-decoration: underline;
-  letter-spacing: 1.5;
+.Dictionary section {
+  background-color: rgba(142, 88, 57, 0.5);
+  box-shadow: 0 30px 50px rgba(65, 50, 100, 0.08);
+  font-family: "Pacifico", cursive;
+  border-radius: 8px;
+  margin-top: 10px;
+  padding: 40px;
+}
+
+.Dictionary label {
+  font-family: "Pacifico", cursive;
+  font-weight: 600;
+  font-style: normal;
+  font-size: 24px;
+  margin-bottom: 20px;
+  display: block;
+  line-height: 29px;
+}
+
+.Dictionary .hint {
+  margin-top: 15px;
+  display: block;
+}
+
+.Phonetic {
+  margin: 20px 0 0;
+}
+
+.Phonetic h2 {
+  font-weight: 600;
+  font-size: 25px;
+  line-height: 19px;
+  color: antiquewhite;
+  display: inline;
+}
+
+.Meaning {
+  background-color: rgba(142, 88, 57, 0.5);
+  color: antiquewhite;
+  line-height: 2;
+  border-radius: 10px;
+  padding: 10px;
+  box-shadow: 0 30px 50px rgba(65, 50, 100, 0.08);
+  border-radius: 8px;
+
+  margin-top: 10px;
+  padding: 40px;
+}
+.Meaning h3 {
+  font-weight: 600;
+  font-size: 24px;
+  line-height: 29px;
+  margin-bottom: 20px;
+  padding-top: 10px;
+  color: antiquewhite;
+}
+
+.Meaning p {
+  font-size: 14px;
+  line-height: 17px;
+  color: antiquewhite;
+  padding-top: 10px;
+  margin-top: 20px 0 20px;
+}
+
+.Meaning em {
+  font-size: 13px;
+  padding-top: 10px;
+  line-height: 15px;
+  color: antiquewhite;
+  margin-top: 20px;
 }
