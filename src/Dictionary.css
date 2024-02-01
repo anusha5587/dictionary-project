@@ -39,13 +39,13 @@
   font-weight: 600;
   font-size: 25px;
   line-height: 19px;
-  color: antiquewhite;
+  color: whitesmoke;
   display: inline;
 }
 
 .Meaning {
   background-color: rgba(142, 88, 57, 0.5);
-  color: antiquewhite;
+  color: whitesmoke;
   line-height: 2;
   border-radius: 10px;
   padding: 10px;
@@ -61,13 +61,13 @@
   line-height: 29px;
   margin-bottom: 20px;
   padding-top: 10px;
-  color: antiquewhite;
+  color: whitesmoke;
 }
 
 .Meaning p {
   font-size: 14px;
   line-height: 17px;
-  color: antiquewhite;
+  color: whitesmoke;
   padding-top: 10px;
   margin-top: 20px 0 20px;
 }
@@ -76,6 +76,6 @@
   font-size: 13px;
   padding-top: 10px;
   line-height: 15px;
-  color: antiquewhite;
+  color: whitesmoke;
   margin-top: 20px;
 }

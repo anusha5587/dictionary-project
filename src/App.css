@@ -19,13 +19,9 @@
   font-family: "Pacifico", cursive;
   font-size: 12px;
   font-weight: light;
-  color: black;
+  color: whitesmoke;
   margin: 0 auto;
-  background: linear-gradient(
-    -225deg,
-    rgba(203, 186, 204, 0.5) 10%,
-    rgba(37, 128, 179, 0.5) 100%
-  );
+  background-color: rgba(142, 88, 57, 0.5);
   border-radius: 6px;
 }
 
