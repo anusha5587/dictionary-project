@@ -1,27 +1,28 @@
 .Meaning {
   color: black;
   line-height: 2;
-
+  font-family: "Roboto", sans-serif;
   border-radius: 8px;
 }
 .Meaning h3 {
+  font-family: "Roboto", sans-serif;
   font-weight: bold;
   font-size: 26px;
-  line-height: 29px;
-  margin-bottom: 20px;
-  padding-top: 10px;
+  line-height: 1;
+  margin-bottom: 10px;
+  padding-top: 5px;
   color: black;
 }
 
 .Meaning p {
-  font-size: 20px;
-  line-height: 2;
+  font-family: "Roboto", sans-serif;
+  font-size: 15px;
+  line-height: 1.5;
   color: black;
-  padding-top: 10px;
-  margin-top: 20px 0 20px;
 }
 
 .Meaning em {
+  font-family: "Roboto", sans-serif;
   font-size: 13px;
   padding-top: 10px;
   line-height: 15px;
