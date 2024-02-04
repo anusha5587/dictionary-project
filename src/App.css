@@ -1,7 +1,10 @@
 .App-header {
   margin: 30px 0;
-  background-color: rgba(142, 88, 57, 0.5);
-
+  background: linear-gradient(
+    to right,
+    rgba(173, 83, 137, 0.1),
+    rgba(60, 16, 83, 0.1)
+  );
   border-radius: 15px;
 }
 
@@ -21,7 +24,11 @@
   font-weight: light;
   color: whitesmoke;
   margin: 0 auto;
-  background-color: rgba(142, 88, 57, 0.5);
+  background: linear-gradient(
+    to right,
+    rgba(173, 83, 137, 0.5),
+    rgba(60, 16, 83, 0.5)
+  );
   border-radius: 6px;
 }
 
@@ -29,6 +36,7 @@
   text-decoration: none;
   color: rgb(128, 0, 64);
   border-style: none;
+  font-weight: bold;
 }
 .App footer a:hover {
   text-decoration: underline;

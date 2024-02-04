@@ -1,6 +1,6 @@
 .Dictionary {
   margin-top: 20px;
-  color: whitesmoke;
+  color: black;
   font-family: "Pacifico", cursive;
   padding: 20px 0px 20px 10px;
   max-width: 900px;
@@ -8,7 +8,11 @@
 }
 
 .Dictionary section {
-  background-color: rgba(142, 88, 57, 0.5);
+  background: linear-gradient(
+    to right,
+    rgba(173, 83, 137, 0.2),
+    rgba(60, 16, 83, 0.2)
+  );
   box-shadow: 0 30px 50px rgba(65, 50, 100, 0.08);
   font-family: "Pacifico", cursive;
   border-radius: 8px;
@@ -31,67 +35,10 @@
   display: block;
 }
 
-.Phonetic {
-  margin: 20px 0 0;
-}
-
-.Phonetic h2 {
-  font-weight: 600;
-  font-size: 25px;
-  line-height: 19px;
-  color: whitesmoke;
-  display: inline;
-}
-
-.Meaning {
-  background-color: rgba(142, 88, 57, 0.5);
-  color: whitesmoke;
-  line-height: 2;
-  border-radius: 10px;
-  padding: 10px;
-  box-shadow: 0 30px 50px rgba(65, 50, 100, 0.08);
-  border-radius: 8px;
-  margin-top: 10px;
-  padding: 40px;
-}
-.Meaning h3 {
-  font-weight: 600;
-  font-size: 24px;
-  line-height: 29px;
-  margin-bottom: 20px;
-  padding-top: 10px;
-  color: whitesmoke;
-}
-
-.Meaning p {
-  font-size: 14px;
-  line-height: 17px;
-  color: whitesmoke;
-  padding-top: 10px;
-  margin-top: 20px 0 20px;
-}
-
-.Meaning em {
-  font-size: 13px;
-  padding-top: 10px;
-  line-height: 15px;
-  color: whitesmoke;
-  margin-top: 20px;
-}
-
-.Synonyms {
-  margin: 20px 0 0;
-}
-
-.Synonyms ul {
-  padding: 0;
-  margin: 0;
-}
-
-.Synonyms li {
-  list-style: none;
-  font-style: italic;
-  font-size: 14px;
-  display: inline-block;
-  line-height: 17px;
+.Result section {
+  background: linear-gradient(
+    to right,
+    rgba(173, 83, 137, 0.2),
+    rgba(60, 16, 83, 0.2)
+  );
 }

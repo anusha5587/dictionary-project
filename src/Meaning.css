@@ -1,0 +1,30 @@
+.Meaning {
+  color: black;
+  line-height: 2;
+
+  border-radius: 8px;
+}
+.Meaning h3 {
+  font-weight: bold;
+  font-size: 26px;
+  line-height: 29px;
+  margin-bottom: 20px;
+  padding-top: 10px;
+  color: black;
+}
+
+.Meaning p {
+  font-size: 20px;
+  line-height: 2;
+  color: black;
+  padding-top: 10px;
+  margin-top: 20px 0 20px;
+}
+
+.Meaning em {
+  font-size: 13px;
+  padding-top: 10px;
+  line-height: 15px;
+  color: black;
+  margin-top: 20px;
+}

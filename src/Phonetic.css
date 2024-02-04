@@ -1,0 +1,12 @@
+.Phonetic {
+  margin: 20px 0 0;
+}
+
+.Phonetic h2 {
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 19px;
+  color: black;
+  display: inline;
+  letter-spacing: 1.5px;
+}

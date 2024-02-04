@@ -1,5 +1,5 @@
 import React from "react";
-import "./Dictionary.css";
+import "./Phonetic.css";
 
 export default function Phonetic(props) {
   if (props.phonetic) {
