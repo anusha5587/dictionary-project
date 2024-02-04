@@ -8,14 +8,14 @@ export default function Result(props) {
     return (
       <div className="Result">
         <section>
-          <h2 className="text-capitalize">{props.definition.word}</h2>
+          <h1 className="text-capitalize">{props.definition.word}</h1>
           <Phonetic phonetic={props.definition.phonetic} />
         </section>
         {props.definition.meanings.map(function (meaning, index) {
           return (
-            <div key={index}>
+            <section key={index}>
               <Meaning meaning={meaning} />
-            </div>
+            </section>
           );
         })}
       </div>
